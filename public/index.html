@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copilot Overview Workshop - SoftwareOne Vietnam</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>SoftwareOne Vietnam - Copilot Workshop</span>
+            </div>
+            <nav class="header-nav">
+                <a href="#" class="nav-link active" data-view="home">Trang chủ</a>
+                <a href="#" class="nav-link" data-view="agenda">Lịch trình</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Home / Agenda View -->
+        <div id="home-view" class="view active">
+            <div class="hero">
+                <h1>Copilot Overview Workshop</h1>
+                <p class="hero-desc">Thực hành Copilot Chat, Word, Excel, PowerPoint, Outlook, Teams và Researcher Agent qua 7 tình huống công việc thực tế, sau đó tự tạo agent riêng với Agent Builder. Buổi workshop do SoftwareOne Vietnam tổ chức, giúp người dùng khám phá và áp dụng Microsoft 365 Copilot vào công việc hằng ngày.</p>
+                <div class="hero-actions">
+                    <a class="hero-btn" href="#module-1">Bắt đầu lab →</a>
+                </div>
+            </div>
+
+            <div class="agenda-section">
+                <h2>Lịch trình buổi học</h2>
+                <div class="agenda-table">
+                    <div class="agenda-header">
+                        <span>Nội dung</span>
+                        <span>Mô tả</span>
+                    </div>
+                    <div class="agenda-row" data-module="module-1">
+                        <span class="module-name"><a href="#module-1">Module 1 - Giới thiệu Copilot và chuẩn bị</a></span>
+                        <span class="content-desc">Copilot hoạt động thế nào, Copilot nhìn thấy gì, bảo mật và quy định sử dụng, kiểm tra licence, tải file demo</span>
+                    </div>
+                    <div class="agenda-row" data-module="module-2">
+                        <span class="module-name"><a href="#module-2">Module 2 - Viết prompt hiệu quả</a></span>
+                        <span class="content-desc">Công thức 4 thành phần, hỏi tiếp để cải thiện, 5 kỹ thuật an toàn, thư viện prompt theo nhịp làm việc và theo phòng ban</span>
+                    </div>
+                    <div class="agenda-row" data-module="module-3">
+                        <span class="module-name"><a href="#module-3">Module 3 - Personalization in Copilot</a></span>
+                        <span class="content-desc">Thiết lập Customize Copilot để mọi câu trả lời đúng vai trò và phong cách làm việc của anh/chị</span>
+                    </div>
+                    <div class="agenda-row lab" data-module="lab-1">
+                        <span class="module-name"><a href="#lab-1">Lab 1 - Copilot Chat</a></span>
+                        <span class="content-desc">Báo cáo tuần từ email và cuộc họp, đối chiếu kế hoạch với số liệu thực tế, cập nhật xu hướng với chế độ Web</span>
+                    </div>
+                    <div class="agenda-row lab" data-module="lab-2">
+                        <span class="module-name"><a href="#lab-2">Lab 2 - Copilot trong Word</a></span>
+                        <span class="content-desc">Rà soát dự thảo hợp đồng, đối chiếu với chính sách nội bộ, soạn tờ trình xin phê duyệt</span>
+                    </div>
+                    <div class="agenda-row lab" data-module="lab-3">
+                        <span class="module-name"><a href="#lab-3">Lab 3 - Copilot trong Excel</a></span>
+                        <span class="content-desc">Bức tranh quý 3 trong 5 ý, phân loại dự án theo tình trạng, so sánh với chuẩn ngành</span>
+                    </div>
+                    <div class="agenda-row lab" data-module="lab-4">
+                        <span class="module-name"><a href="#lab-4">Lab 4 - Copilot trong PowerPoint</a></span>
+                        <span class="content-desc">Slide truyền thông kế hoạch cho toàn công ty, slide riêng cho đội của mình, diễn tập câu hỏi khó</span>
+                    </div>
+                    <div class="agenda-row break">
+                        <span class="module-name"><em>Nghỉ giải lao</em></span>
+                        <span class="content-desc"></span>
+                    </div>
+                    <div class="agenda-row lab" data-module="lab-5">
+                        <span class="module-name"><a href="#lab-5">Lab 5 - Copilot trong Outlook</a></span>
+                        <span class="content-desc">Hộp thư thành danh sách việc cần làm, xử lý chuỗi email dài, chuẩn bị cho cuộc họp quan trọng</span>
+                    </div>
+                    <div class="agenda-row lab" data-module="lab-6">
+                        <span class="module-name"><a href="#lab-6">Lab 6 - Copilot trong Teams</a></span>
+                        <span class="content-desc">Bắt kịp cuộc họp, chốt điểm còn bất đồng, biên bản có người phụ trách và thời hạn, tóm tắt nhóm chat</span>
+                    </div>
+                    <div class="agenda-row lab" data-module="lab-7">
+                        <span class="module-name"><a href="#lab-7">Lab 7 - Researcher Agent</a></span>
+                        <span class="content-desc">Ba câu hỏi cho kế hoạch 2027: quy định mới, rủi ro so với ngành, đề xuất điều chỉnh</span>
+                    </div>
+                    <div class="agenda-row lab" data-module="lab-8">
+                        <span class="module-name"><a href="#lab-8">Lab 8 - Agent Builder in Copilot Chat</a></span>
+                        <span class="content-desc">Tạo trợ lý Policy Assistant giúp mọi nhân viên tra cứu nghỉ phép, công tác phí, thẩm quyền phê duyệt</span>
+                    </div>
+                    <div class="agenda-row" data-module="wrap">
+                        <span class="module-name"><a href="#wrap">Tổng kết</a></span>
+                        <span class="content-desc">Ba thói quen dùng Copilot mỗi ngày</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Module Content View -->
+        <div id="module-view" class="view">
+            <div class="module-container">
+                <div class="module-sidebar">
+                    <div class="sidebar-header">
+                        <a href="#" class="back-link">&larr; Quay lại lịch trình</a>
+                    </div>
+                    <nav class="module-nav" id="module-nav">
+                        <!-- Populated by JS -->
+                    </nav>
+                </div>
+                <div class="module-content" id="module-content">
+                    <!-- Rendered markdown goes here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>SoftwareOne Vietnam Co. Ltd - Copilot Overview Workshop &copy; 2026</p>
+    </footer>
+
+    <!-- Markdown parser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
